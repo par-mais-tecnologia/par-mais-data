@@ -1,6 +1,6 @@
 {
   "name": "par-mais-data",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Par Mais User Data.",
   "directories": {
     "test": "test"
