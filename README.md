@@ -43,8 +43,8 @@ Sent dada must contain relevant data, as user email and name, like:
 
 ```json
 {
-  name: 'user name',
-  email: 'user email',
+  "name": "user name",
+  "email": "user email"
 }
 ```
 
