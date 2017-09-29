@@ -1,0 +1,12 @@
+# IDES
+.idea
+
+# Project
+node_modules
+coverage
+dist/
+
+npm-debug.log
+
+# Test
+dynamito-memory
