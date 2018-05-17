@@ -7,7 +7,8 @@
   },
   "scripts": {
     "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "test": "gulp",
+    "standardFix": "standard --fix"
   },
   "author": "Diego Laucsen",
   "files": [
@@ -32,7 +33,8 @@
     "gulp-babel": "^7.0.0",
     "gulp-eslint": "^4.0.0",
     "gulp-exclude-gitignore": "^1.2.0",
-    "gulp-nsp": "^2.4.2"
+    "gulp-nsp": "^2.4.2",
+    "standard": "^11.0.1"
   },
   "dependencies": {}
 }
