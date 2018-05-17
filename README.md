@@ -14,7 +14,7 @@ Initialize Par Mais Data Module with:
 
 ```js
 import ParMaisData from 'par-mais-data';
-ParMaisData.init('APP_IDENTIFIER', { rdToken: 'resultados-digitais-token' })
+ParMaisData.init('APP_IDENTIFIER')
 ```
 
 ## Events and Identifications
