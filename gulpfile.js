@@ -26,11 +26,11 @@ gulp.task('clean', function () {
   return del('dist')
 })
 
-gulp.task('babel', ['clean'], function () {
+gulp.task('babel', gulp.series('clean', function () {
   return gulp.src('lib/**/*.js')
     .pipe(babel())
     .pipe(gulp.dest('dist'))
-})
+}))
 
-gulp.task('prepublish', ['nsp', 'babel'])
-gulp.task('default', ['static'])
+gulp.task('prepublish', gulp.series('nsp', 'babel'))
+gulp.task('default',  gulp.series('static'))
